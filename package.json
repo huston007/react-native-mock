@@ -1,6 +1,6 @@
 {
-  "name": "react-native-mock",
-  "version": "0.3.1",
+  "name": "@huston007/react-native-mock",
+  "version": "0.3.2",
   "description": "A fully mocked and test-friendly version of react native",
   "main": "build/react-native.js",
   "scripts": {
@@ -13,7 +13,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/RealOrangeOne/react-native-mock.git"
+    "url": "git+https://github.com/huston007/react-native-mock.git"
   },
   "keywords": [
     "react",
@@ -24,9 +24,9 @@
   "author": "Jake Howard <git@theorangeone.net>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/RealOrangeOne/react-native-mock/issues"
+    "url": "https://github.com/huston007/react-native-mock/issues"
   },
-  "homepage": "https://github.com/RealOrangeOne/react-native-mock#readme",
+  "homepage": "https://github.com/huston007/react-native-mock#readme",
   "devDependencies": {
     "babel-cli": "6.9.0",
     "babel-core": "6.9.0",
@@ -41,7 +41,7 @@
     "eslint-plugin-react": "5.1.1",
     "eslint-plugin-react-native": "1.0.2",
     "mocha": "2.5.3",
-    "react": "^15.5.0",
+    "react": ">=16.0.0-alpha.12",
     "react-native": "^0.43.0"
   },
   "dependencies": {
@@ -49,11 +49,10 @@
     "cubic-bezier": "^0.1.2",
     "invariant": "^2.2.1",
     "keymirror": "^0.1.1",
-    "prop-types": "^15.5.6",
+    "prop-types": "15.5.10",
     "raf": "^3.2.0",
-    "react-addons-perf": "^15.4.0",
-    "react-dom": "^15.5.0",
-    "react-test-renderer": "^15.5.0",
+    "react-dom": ">=16.0.0-alpha.12",
+    "react-test-renderer": ">=16.0.0-alpha.12",
     "react-timer-mixin": "^0.13.3",
     "warning": "^2.1.0"
   },
